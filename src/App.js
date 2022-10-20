@@ -1,22 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import ReactJSX, {ReactNoJSX} from './components/ReactJSX';
+import CompAndProps  from './components/CompAndProps';
+import Button from './elements/Button';
+import TextInput from './elements/TextInput.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <ReactJSX />
+        <ReactNoJSX />
+
+        <div className="Components">
+          <CompAndProps bgColor="#fafafa"/>
+          <form action="">
+            <TextInput border="red" placeholder="Nama"/>
+            <Button background="blue">Kirim</Button>
+     </form>
+          </div>
+       
       </header>
     </div>
   );
