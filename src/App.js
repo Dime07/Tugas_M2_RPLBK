@@ -16,7 +16,7 @@ function App() {
           <CompAndProps bgColor="#fafafa"/>
           <form action="">
             <TextInput border="red" placeholder="Nama"/>
-            <Button background="blue">Kirim</Button>
+            <Button background="blue"><span>Kirim</span></Button>
      </form>
           </div>
        

@@ -35,7 +35,12 @@ function Square(props) {
         backgroundColor: '#ECB365',
         color: 'white',
         fontWeight: '600',
-        borderRadius : '2px'
+        borderRadius : '0.5em',
+        transition : 'all 0.5s',
+        ':hover' : {
+          paddingRight: '25px'
+        }
+        
 
     }
 

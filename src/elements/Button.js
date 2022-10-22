@@ -8,6 +8,7 @@ export default styled.button`
   padding: 7px 10px;
   background: green;
   margin: 20px 10px;
+  transition: all 0.5s;
   ${(props) =>
     props.background &&
     css`
@@ -15,6 +16,6 @@ export default styled.button`
     `}
   color:white;
   &:hover {
-    text-decoration: underline;
+    padding-right: 25px;
   }
 `;
