@@ -1,7 +1,7 @@
-import styled, { css } from "styled-components";
+import styled, { css } from 'styled-components';
 
 export default styled.button`
-  font-family: "roboto";
+  font-family: 'roboto';
   font-size: 1.3rem;
   border: none;
   border-radius: 5px;

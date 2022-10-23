@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import ReactJSX, {ReactNoJSX} from './components/ReactJSX';
-import CompAndProps  from './components/CompAndProps';
+import ReactJSX, { ReactNoJSX } from './components/ReactJSX';
+import CompAndProps from './components/CompAndProps';
 import Button from './elements/Button';
 import TextInput from './elements/TextInput.js';
 
@@ -13,13 +13,14 @@ function App() {
         <ReactNoJSX />
 
         <div className="Components">
-          <CompAndProps bgColor="#fafafa"/>
+          <CompAndProps bgColor="#fafafa" />
           <form action="">
-            <TextInput border="red" placeholder="Nama"/>
-            <Button background="blue"><span>Kirim</span></Button>
-     </form>
-          </div>
-       
+            <TextInput border="blue" placeholder="Nama" />
+            <Button background="blue">
+              <span>Kirim</span>
+            </Button>
+          </form>
+        </div>
       </header>
     </div>
   );
