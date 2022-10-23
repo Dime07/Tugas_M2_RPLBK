@@ -1,6 +1,13 @@
 import { dataAegis } from "../dataAegis"
 import { useState } from "react"
 
+function Header() {
+    return title;
+}
+const title = (
+    <h3>Biodata Aegis</h3>
+)
+
 function Square(props) {
     const card = {
         width: '300px',
@@ -81,11 +88,29 @@ export default function Main(){
         justifyContent: "space-evenly"
     }
 
+    const button = {
+        width: "3.5em",
+        marginLeft: "0.5em",
+        borderRadius: "0.5em",
+        fontSize: "16pt",
+        padding: "10px",
+        backgroundColor: "gold",
+        color: "item",
+        transition: "all .5s"
+    }
+
+    const titleStyled = {
+        margin: "2em",
+    }
+
 
     return(
-        <div >
+        <div>
+            <div style={titleStyled}>
+                <Header/>
+            </div>
             <input id="inputan" />
-            <button onClick={filterData}> Cari </button>
+            <button style={button} onClick={filterData}> Cari </button>
 
             <div style={wrapper}>
                 {aegis.map((item) => {
