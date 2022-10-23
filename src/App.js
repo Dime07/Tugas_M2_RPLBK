@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.css';
-import ReactJSX, { ReactNoJSX } from './components/ReactJSX';
-import CompAndProps from './components/CompAndProps';
-import Button from './elements/Button';
-import TextInput from './elements/TextInput.js';
+import Main from './components/Main';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ReactJSX />
+        <Main/>
+        {/* <ReactJSX />
         <ReactNoJSX />
 
         <div className="Components">
@@ -20,7 +18,7 @@ function App() {
               <span>Kirim</span>
             </Button>
           </form>
-        </div>
+        </div> */}
       </header>
     </div>
   );
