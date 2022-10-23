@@ -95,7 +95,7 @@ export default function Main(){
         fontSize: "16pt",
         padding: "10px",
         backgroundColor: "gold",
-        color: "item",
+        color: "biru",
         transition: "all .5s"
     }
 
